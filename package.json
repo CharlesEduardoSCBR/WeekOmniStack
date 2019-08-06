@@ -1,0 +1,8 @@
+{
+  "name": "WeekOmniStack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CharlesEduardoSCBR/WeekOmniStack.git",
+  "author": "Charles Eduardo <charles.eduardo.sc.br@gmail.com>",
+  "license": "MIT"
+}
