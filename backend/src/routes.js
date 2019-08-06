@@ -5,8 +5,8 @@ routes.get('/', (req, res) => {
     return res.json({ message: `Hi` })
 });
 
-routes.post('/devs', (req, res) =>{
-    return res.json({ ok: true});
+routes.post('/devs', (req, res) => {
+    return res.json({ ok: true });
 });
 
 module.exports = routes;
