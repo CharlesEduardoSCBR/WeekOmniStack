@@ -1,10 +1,7 @@
 const express = require('express');
+const routes = require('./routes');
+
 const server = express();
 
-const caracter = '!'
-
-server.get('/', (req, res) => {
-    return res.json({ message: `Hi ${caracter}` });
-});
-
+server.use(routes);
 server.listen(3333);
